@@ -1,0 +1,14 @@
+package dev.demo_tests_unitaires;
+
+public class TestUni {
+
+	
+	public static void main(String[] args) {
+		
+		int result = StringUtils.levenshteinDistance("chat", "chat"); 
+		
+	
+	
+	
+}
+}

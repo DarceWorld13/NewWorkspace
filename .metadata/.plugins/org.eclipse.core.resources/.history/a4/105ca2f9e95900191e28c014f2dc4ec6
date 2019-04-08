@@ -1,0 +1,15 @@
+package dev.demo_tests_unitaires;
+
+public class TestUni {
+
+	
+	levenshteinDistance('B','C') {
+		
+		return a/b
+		
+	}; 
+	
+	
+	
+	
+}

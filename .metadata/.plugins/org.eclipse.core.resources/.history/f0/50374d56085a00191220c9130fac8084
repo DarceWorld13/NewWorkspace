@@ -1,0 +1,27 @@
+package test.pizza;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import Dao.PizzamemDao;
+import fr.pizzeria.model.Pizza.Pizza;
+
+public class TestPizzaMemDao {
+	
+	@Test
+	public void  testFindAllPizza() {
+		
+		PizzamemDao dao = new PizzamemDao(); 
+		
+		Pizza[] testListe = dao.findAllPizzas();
+		
+		Assert.assertEquals(dao, testListe);
+		
+		
+	}
+	
+	
+	
+	
+
+}

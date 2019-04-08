@@ -1,0 +1,17 @@
+package dev.demo_tests_unitaires;
+
+public class TestUni {
+
+	
+	public static void main(String[] args) {
+		
+		int result = StringUtils.levenshteinDistance(, "chat"); 
+		
+		if(result != 0) {
+			throw new RuntimeException("resultat attendu 0 pour chat et chat");
+		}
+	
+	
+	
+}
+}
