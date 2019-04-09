@@ -5,10 +5,21 @@
 <fullyQualifiedTypeName name="dev.demo_tests_unitaires.StringUtils"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="Dao.PizzaDao"/>
 <fullyQualifiedTypeName name="Dao.PizzamemDao"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="test.pizza.TestPizzaMemDao"/>
+<fullyQualifiedTypeName name="org.junit.Rule"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="Dao.Mockitotest"/>
+<fullyQualifiedTypeName name="org.junit.contrib.java.lang.system.TextFromStandardInputStream"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="Dao.PizzaDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="menuService.ListerPizzasService"/>
+<fullyQualifiedTypeName name="menuService.ModifierPizzaService"/>
 <fullyQualifiedTypeName name="fr.pizzeria.model.Pizza.Pizza"/>
 <fullyQualifiedTypeName name="fr.pizzeria.model.Pizza.Categorie"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="menuService.SupprimerPizzaService"/>
 </qualifiedTypeNameHistroy>

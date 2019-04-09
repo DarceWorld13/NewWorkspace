@@ -1,0 +1,56 @@
+
+g
+squid:S106)"9Replace this use of System.out or System.err by a logger.(èÖÌ´üÿÿÿÿRMAJORZ
+CODE_SMELL
+b
+squid:S106+"9Replace this use of System.out or System.err by a logger.(¢•ÜRMAJORZ
+CODE_SMELL
+b
+squid:S106X"9Replace this use of System.out or System.err by a logger.(ã¾ÁRMAJORZ
+CODE_SMELL
+dsquid:S1141K"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿRMAJORZ
+CODE_SMELL
+`squid:UselessImportCheck
+")Remove this unused import 'Dao.TestJDBC'.(©Å€•RMINORZ
+CODE_SMELL
+gsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿRMINORZ
+CODE_SMELL
+usquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(ûİ«‡RMAJORZ
+CODE_SMELL
+a
+squid:S106*"9Replace this use of System.out or System.err by a logger.(ú·–{RMAJORZ
+CODE_SMELL
+g
+squid:S106<"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿRMAJORZ
+CODE_SMELL
+g
+squid:S106'"9Replace this use of System.out or System.err by a logger.(Ã»ª‘øÿÿÿÿRMAJORZ
+CODE_SMELL
+g
+squid:S106("9Replace this use of System.out or System.err by a logger.(À‘ê”üÿÿÿÿRMAJORZ
+CODE_SMELL
+g
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿRMAJORZ
+CODE_SMELL
+a
+squid:S106T"9Replace this use of System.out or System.err by a logger.(ÚœÃ<RMAJORZ
+CODE_SMELL
+g
+squid:S106`"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿRMAJORZ
+CODE_SMELL
+usquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(†€éˆRMAJORZ
+CODE_SMELL
+zsquid:UselessImportCheck">Remove this unused import 'fr.pizzeria.model.Pizza.Pizzahome'.(¹¢ÓÊıÿÿÿÿRMINORZ
+CODE_SMELL
+dsquid:S1141B"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿRMAJORZ
+CODE_SMELL
+g
+squid:S106&"9Replace this use of System.out or System.err by a logger.(‹æ£ÅÿÿÿÿÿRMAJORZ
+CODE_SMELL
+usquid:UselessImportCheck">Remove this unused import 'fr.pizzeria.model.Pizza.Categorie'.(¢ëÜÕRMINORZ
+CODE_SMELL
+g
+squid:S106P"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿRMAJORZ
+CODE_SMELL
+dsquid:S11419"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿRMAJORZ
+CODE_SMELL

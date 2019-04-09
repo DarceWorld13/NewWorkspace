@@ -19,11 +19,13 @@ public class ModifierPizzaService extends MenuService{
 		System.out.println("Quelle est le code de la pizza que vous voulez modifier ?");
 		String reponsemodif = question.nextLine();
 
-		for (int i = 0; i < dao.findAllPizzas().length; i++) {
+		
+		Pizza[] toutes = dao.findAllPizzas();
+		for (int i = 0; i < toutes.length; i++) {
 
-			if (dao.findAllPizzas()[i] != null && reponsemodif.equals(dao.findAllPizzas()[i].getCode())) {
+			if (toutes[i] != null && reponsemodif.equals(toutes[i].getCode())) {
 
-				System.out.println(dao.findAllPizzas()[i].getCode());
+				System.out.println(toutes[i].getCode());
 
 				System.out.println("Veuillez saisir le code :");
 				String reponseCode2 = question.nextLine();
@@ -57,8 +59,8 @@ public class ModifierPizzaService extends MenuService{
 				
 				
 				
-				System.out.println(dao.findAllPizzas()[i].getCode() + "  " + dao.findAllPizzas()[i].getLibelle()
-						+ "   " + dao.findAllPizzas()[i].getPrix() + "->>>>>>>"+dao.findAllPizzas()[i].getCategorie());
+				System.out.println(toutes[i].getCode() + "  " + toutes[i].getLibelle()
+						+ "   " + toutes[i].getPrix() + "->>>>>>>"+toutes[i].getCategorie());
 			}
 		}
 		

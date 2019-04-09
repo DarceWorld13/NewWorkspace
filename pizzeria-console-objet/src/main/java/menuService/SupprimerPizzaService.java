@@ -14,7 +14,7 @@ public class SupprimerPizzaService extends MenuService {
 	@Override
 	public void executeUC(Scanner scanner, PizzaDao dao) throws DeletePizzaException{
 		question = new Scanner(System.in);
-		// TODO Auto-generated method stub
+		
 		System.out.println("Supprimer une pizza");
 		System.out.println("Quelle est le code de la pizza que vous voulez supprimer ?");
 		String reponsesupprimer = question.nextLine();
@@ -29,15 +29,6 @@ public class SupprimerPizzaService extends MenuService {
 		}
 		
 		
-		
-
-		for (int i = 0; i < dao.findAllPizzas().length; i++) {
-			if (dao.findAllPizzas()[i] != null) {
-				System.out.println(dao.findAllPizzas()[i].getCode() + "  " + dao.findAllPizzas()[i].getLibelle()
-						+ "   " + dao.findAllPizzas()[i].getPrix() + "->>>>" + dao.findAllPizzas()[i].getCategorie());
-			}
-
-		}
 		
 	}
 

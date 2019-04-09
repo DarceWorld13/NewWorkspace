@@ -1,0 +1,34 @@
+package menuService;
+
+import java.util.Scanner;
+
+import Dao.PizzaDao;
+import fr.pizzeria.model.Pizza.Pizza;
+
+public class ListerPizzasService extends MenuService {
+	
+
+      
+	@Override
+	public
+	void executeUC (Scanner question, PizzaDao dao) {
+		
+		System.out.println("liste des pizzas");
+
+		Pizza[] findAllPizzas = dao.findAllPizzas();
+		for (int i = 0; i < findAllPizzas.length; i++) {
+
+			if (findAllPizzas[i] != null) {
+				System.out.println(findAllPizzas[i].getCode() + "->" + findAllPizzas[i].getLibelle()
+						+ " " + findAllPizzas[i].getPrix() + findAllPizzas[i].getCategorie());
+			}
+
+		}
+
+		
+		
+	}
+		
+
+
+}

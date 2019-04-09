@@ -31,7 +31,7 @@ public class PizzamemDao implements PizzaDao {
 	
 	@Override
 	public Pizza[] findAllPizzas() {
-		// TODO Auto-generated method stub
+
 		return tabledepizza;
 	}
 
@@ -52,7 +52,7 @@ public class PizzamemDao implements PizzaDao {
 	//à chaque fois que l'utilisateur met à jour une pizza 
 	@Override
 	public void updatePizza(String codePizza, Pizza pizza) {
-		// TODO Auto-generated method stub
+
 		for (int j = 0; j < tabledepizza.length; j++) {
 
 			if (tabledepizza[j] != null && codePizza.equals(tabledepizza[j].getCode())) {
@@ -78,13 +78,13 @@ public class PizzamemDao implements PizzaDao {
 
 	@Override
 	public Pizza findPizzaByCode(String codePizza) {
-		// TODO Auto-generated method stub
+
 		return null;
 	}
 
 	@Override
 	public boolean pizzaExists(String codePizza) {
-		// TODO Auto-generated method stub
+
 		return false;
 	}
 

@@ -3,6 +3,7 @@ package menuService;
 import java.util.Scanner;
 
 import Dao.PizzaDao;
+import fr.pizzeria.model.Pizza.Pizza;
 
 public class ListerPizzasService extends MenuService {
 	
@@ -14,11 +15,13 @@ public class ListerPizzasService extends MenuService {
 		
 		System.out.println("liste des pizzas");
 
-		for (int i = 0; i < dao.findAllPizzas().length; i++) {
+		Pizza[] listePizzas = dao.findAllPizzas();
+		
+		for (int i = 0; i < listePizzas.length; i++) {
 
-			if (dao.findAllPizzas()[i] != null) {
-				System.out.println(dao.findAllPizzas()[i].getCode() + "->" + dao.findAllPizzas()[i].getLibelle()
-						+ " " + dao.findAllPizzas()[i].getPrix() + dao.findAllPizzas()[i].getCategorie());
+			if (listePizzas[i] != null) {
+				System.out.println(listePizzas[i].getCode() + "->" + listePizzas[i].getLibelle()
+						+ " " + listePizzas[i].getPrix() + listePizzas[i].getCategorie());
 			}
 
 		}

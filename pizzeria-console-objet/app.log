@@ -43,3 +43,9 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException:
 	... 2 common frames omitted
 15:49:14.266 [main] INFO  f.p.console.PizzeriaAdminConsoleApp -
 				ma première info
+11:38:04.600 [main] INFO  test.pizza.TestPizzaMemDao -
+				étant donné, une instance de pizzamemeDAO
+11:38:04.615 [main] INFO  test.pizza.TestPizzaMemDao -
+				lorsqu'on ajoute une pizza dans le tableau des pizzas
+11:38:04.615 [main] INFO  test.pizza.TestPizzaMemDao -
+				on compare le contenu des deux tableaux

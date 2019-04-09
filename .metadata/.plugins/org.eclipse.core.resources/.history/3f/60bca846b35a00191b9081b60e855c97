@@ -1,0 +1,43 @@
+package test.pizza;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.mockito.Mockito;
+
+import Dao.PizzaDao;
+import fr.pizzeria.exception.StockageException;
+import fr.pizzeria.model.Pizza.Categorie;
+import fr.pizzeria.model.Pizza.Pizza;
+
+public class TestAjouterPizzaService {
+
+	
+	@Rule
+	public TextFromStandardInputStream systemInMock = emptyStandardInputStream();
+	
+	
+	@Test
+	public void executeUC() throws StockageException {
+		
+		// création du mock
+
+		PizzaDao dao = Mockito.mock(PizzaDao.class); 
+		
+		// définir comportement du mock
+		
+		Pizza nllePizza = new Pizza("VEG", "végétarienne", 13.5, Categorie.SANS_VIANDE);
+		
+		// on simule une saisie de l'utilisateur
+		
+		
+
+				//systemInMock.provideLines("VEG", "végétarienne", 13.5, "SANS_VIANDE");
+				
+				
+		
+		
+	}
+
+
+	
+}

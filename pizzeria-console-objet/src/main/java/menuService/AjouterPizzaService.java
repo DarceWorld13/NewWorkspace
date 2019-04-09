@@ -33,23 +33,14 @@ public class AjouterPizzaService extends MenuService {
 			
 			dao.saveNewPizza(new Pizza(reponseCode, reponseNom, prix, Categorie.SANS_VIANDE));
 		}
-			if(!reponseCode.equals(reponseCode.toUpperCase())){
+			if(!reponseCode.equalsIgnoreCase(reponseCode)){
 				throw new SavePizzaException();
 		
 			}
 			
 		
 
-		System.out.println("liste des pizzas");
 		
-		for (int i = 0; i < dao.findAllPizzas().length; i++) {
-
-			if (dao.findAllPizzas()[i] != null) {
-				System.out.println(dao.findAllPizzas()[i].getCode() + "->" + dao.findAllPizzas()[i].getLibelle()
-						+ " " + dao.findAllPizzas()[i].getPrix()+ "->>>>" + dao.findAllPizzas()[i].getCategorie());
-			}
-
-		}
 
 		
 	}

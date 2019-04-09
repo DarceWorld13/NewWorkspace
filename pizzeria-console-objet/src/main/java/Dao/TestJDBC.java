@@ -116,13 +116,13 @@ public class TestJDBC implements PizzaDao {
 
 	@Override
 	public Pizza findPizzaByCode(String codePizza) {
-		// TODO Auto-generated method stub
+	
 		return null;
 	}
 
 	@Override
 	public boolean pizzaExists(String codePizza) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 

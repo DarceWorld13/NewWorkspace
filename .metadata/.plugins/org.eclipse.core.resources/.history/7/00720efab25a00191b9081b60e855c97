@@ -1,0 +1,11 @@
+package test.pizza;
+
+public class TextFromStandardInputStream {
+	
+	private test.pizza.TextFromStandardInputStream emptyStandardInputStream() {
+		
+		return null;
+	}
+	
+
+}

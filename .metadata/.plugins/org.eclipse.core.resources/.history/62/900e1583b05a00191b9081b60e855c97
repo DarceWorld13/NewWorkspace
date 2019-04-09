@@ -1,0 +1,16 @@
+package test.pizza;
+
+import org.junit.Test;
+
+import fr.pizzeria.exception.StockageException;
+
+public class TestAjouterPizzaService {
+
+	@Test
+	
+	public void executeUC() throws StockageException {
+		
+		
+	}
+	
+}

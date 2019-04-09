@@ -1,0 +1,13 @@
+package test.pizza;
+
+import fr.pizzeria.model.Pizza.Pizza;
+
+public class TextFromStandardInputStream {
+	
+	public Pizza emptyStandardInputStream() {
+		
+		return null;
+	}
+	
+
+}

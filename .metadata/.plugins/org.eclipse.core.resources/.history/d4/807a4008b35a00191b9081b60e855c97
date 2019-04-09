@@ -1,0 +1,11 @@
+package test.pizza;
+
+public class TextFromStandardInputStream {
+	
+	public emptyStandardInputStream() {
+		
+		return null;
+	}
+	
+
+}
