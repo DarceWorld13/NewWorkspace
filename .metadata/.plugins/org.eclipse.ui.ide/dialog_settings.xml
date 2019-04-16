@@ -48,6 +48,7 @@
 		<item value="org.eclipse.jst.enterprise_ui.feature:3.9.300.v201903042334"/>
 		<item value="org.eclipse.m2e.feature:1.11.0.20190220-2119"/>
 		<item value="org.eclipse.m2e.logback.feature:1.11.0.20190220-2119"/>
+		<item value="org.eclipse.m2e.wtp.feature:1.4.1.20181128-2152"/>
 		<item value="org.eclipse.m2e.wtp.jpa.feature:1.4.1.20181128-2152"/>
 		<item value="org.eclipse.pde:3.13.400.v20190307-0943"/>
 		<item value="org.eclipse.platform:4.11.0.v20190307-0500"/>
@@ -70,6 +71,13 @@
 		<item value="org.sonatype.m2e.mavenarchiver.feature:0.17.2.201606141937-signed-20160830073346"/>
 	</list>
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\amado\Documents\workspace"/>
 		<item value="C:\Users\amado\Desktop\workspace\pizzeria-console-objet"/>
 	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
 </section>

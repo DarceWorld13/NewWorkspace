@@ -25,12 +25,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="dev.sirh_gestion_personnel"/>
+			<item value="dev.maven_archetype_webapp"/>
+			<item value="dev.jetty_exemple"/>
 			<item value="dev.demo_tests_unitaires"/>
 		</list>
 		<list key="groupId">
 			<item value="dev"/>
 		</list>
 		<list key="artifactId">
+			<item value="sirh-gestion-personnel"/>
+			<item value="maven-archetype-webapp"/>
+			<item value="jetty-exemple"/>
 			<item value="demo-tests-unitaires"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -1,16 +1,0 @@
-
-„squid:S1450"WRemove the "question" field and declare it as a local variable in the relevant methods.(¦¬¶ÎHş	RMINORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ø²ú‰ùÿÿÿÿHÿ	RMAJORZ
-CODE_SMELL
-tsquid:UselessImportCheck":Remove this unused import 'fr.pizzeria.model.Pizza.Pizza'.(ƒÙèûHú	RMINORZ
-CODE_SMELL
-xsquid:UselessImportCheck">Remove this unused import 'fr.pizzeria.model.Pizza.Categorie'.(¢ëÜÕHù	RMINORZ
-CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(èè œüÿÿÿÿH€
-RMAJORZ
-CODE_SMELL
-ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø«†Hü	RMINORZ
-CODE_SMELL
